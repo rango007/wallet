@@ -1,0 +1,31 @@
+@import "variables.module";
+
+.container {
+  font-size: 84px;
+  margin-top: 0.5em;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 0.5em;
+}
+
+.login-button {
+  background-color: $primary;
+}
+
+.contactInfo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.contactInfo a {
+  text-decoration: none;
+}
+
+.infoText {
+  margin-top: 1.5em;
+
+}

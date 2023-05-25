@@ -1,0 +1,17 @@
+.contentRow {
+    align-items: center;
+    gap: 2em;
+}
+
+.actions {
+    align-items: center;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns with equal width */
+    grid-gap: 1em;
+    margin: 1em 0;
+    text-align: center;
+}
+  

@@ -1,0 +1,31 @@
+@import "variables.module";
+
+.actionButton {
+  stroke: $secondary;
+  stroke-width: 2;
+  margin-left: 3em;
+  margin-right: 3em;
+  padding: 0.5em 0.5em 0.5em;
+}
+
+.title {
+  padding: 1em 1em 0;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns with equal width */
+  grid-gap: 1em;
+  margin: 1em 0;
+  text-align: center;
+}
+
+.container {
+  font-size: 84px;
+  margin: 0.5em;
+}
+
+.buttons {
+  display: flex;
+  margin: 0.5em;
+}
